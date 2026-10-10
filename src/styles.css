@@ -110,3 +110,59 @@
 @media(max-width:1050px){.hero-picture,.hero-picture>.sharp-image{background-position:57% center;object-position:57% center}}
 @media(max-width:760px){.hero-picture{top:0;bottom:auto;height:75%;background-image:var(--mobile-preview);background-position:center}.hero-picture>.sharp-image{transform:none!important;will-change:auto;object-position:center}.story-picture{margin-top:30px}}
 @media(prefers-reduced-motion:reduce){.hero-picture>.sharp-image{will-change:auto}}
+
+/* Give the longer shopping copy room without crowding the photographs. */
+.hero-content{padding-top:110px}
+.hero h1{font-size:clamp(58px,5.7vw,86px);line-height:1;letter-spacing:-2px}
+.hero-copy{max-width:430px}
+.section-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px 28px}
+.section-heading>p{grid-column:1/-1;grid-row:2;display:block;max-width:600px;font-size:13px;line-height:1.8;margin:0}
+.section-heading>.text-link{grid-column:2;grid-row:1;align-self:end;white-space:nowrap}
+.section-heading>div>p{font-size:13px;line-height:1.8;color:var(--muted);margin-top:14px;max-width:600px}
+.product-caption{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:9px 8px;align-items:start}
+.product-caption>span{white-space:nowrap;font-size:11px;padding-top:8px}
+.product-caption p{grid-column:1/-1;max-width:none;font-size:12px;line-height:1.65;color:var(--muted)}
+.card-options{font-size:12px;padding:0 0 5px;margin-top:13px;border-bottom:1px solid #9d8c7d;transition:color .25s}
+.card-options:hover{color:#946d64}
+.texture-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.texture-caption h3{font-size:31px;line-height:1.1}
+.texture-caption p{font-size:12px;line-height:1.75}
+.texture-heading>p{font-size:13px;line-height:1.8;max-width:600px;margin:15px auto 0}
+.promise-strip h3{font-size:23px;line-height:1.1}
+.promise-strip p{font-size:12px;line-height:1.7;max-width:270px}
+.finder-section h2{max-width:680px}
+.finder-section p{max-width:510px;line-height:1.8}
+.newsletter h2{max-width:760px;margin-left:auto;margin-right:auto}
+.newsletter .small-note{font-size:11px;margin-top:10px}
+.footer-brand p{max-width:270px;line-height:1.8}
+.detail-color{margin-top:12px}
+.quiz-match>.portrait{aspect-ratio:3/4;min-height:0;align-self:flex-start;height:auto}
+@media(max-width:1050px){.hero-content{padding-top:110px}.hero h1{font-size:65px}.site-header nav{gap:18px;font-size:10px}.texture-caption h3{font-size:28px}.promise-strip h3{font-size:21px}}
+@media(max-width:760px){
+ .hero{height:770px}
+ .hero-content{padding:0 25px;bottom:40px}
+ .hero h1{font-size:50px;line-height:1;letter-spacing:-1.5px;margin-bottom:20px}
+ .hero-copy{font-size:12px;line-height:1.75;max-width:360px}
+ .section-heading{gap:14px 15px}
+ .section-heading h2{font-size:38px}
+ .section-heading>.text-link{font-size:10px}
+ .section-heading>p,.section-heading>div>p{font-size:12px}
+ .product-name{font-size:23px}
+ .product-caption{grid-template-columns:1fr;gap:6px}
+ .product-caption>span{padding:0;font-size:11px}
+ .product-caption p{font-size:11px}
+ .card-options{font-size:11px;margin-top:11px}
+ .texture-grid{grid-template-columns:1fr;gap:32px}
+ .texture-caption h3{font-size:34px}
+ .texture-heading h2{font-size:43px}
+ .texture-heading>p{font-size:12px}
+ .atelier-copy h2{font-size:47px}
+ .finder-section h2{font-size:46px}
+ .finder-section p:not(.eyebrow){font-size:12px}
+ .newsletter h2{font-size:39px}
+ .newsletter p:not(.eyebrow){font-size:12px}
+ .newsletter form{flex-wrap:wrap;gap:15px}
+ .newsletter form input{flex:1 1 100%;width:100%}
+ .newsletter form button{margin:0 auto}
+ .quiz-match>.portrait{width:100%}
+}

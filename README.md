@@ -2,7 +2,9 @@
 
 A React storefront inspired by the supplied Pinterest references. Includes responsive shopping collections, Framer Motion reveals and modal transitions, scroll parallax, product variants, search, local wishlist and bag, a hair finder, care articles, and a demonstration checkout.
 
-Store copy uses direct shopping language. Texture and hair diary cards show full portrait photographs at their natural proportions, with captions below the images. Decorative numbering and marketing eyebrow labels have been removed.
+Store copy uses direct shopping language. Style and hair care cards show full portrait photographs at their natural proportions, with captions below the images. Decorative numbering and marketing eyebrow labels have been removed.
+
+The homepage, product descriptions, shopping labels, care guide links, and page metadata use the supplied MUSE copy. Style browsing includes body wave, straight, curly, and bob cards. The wig finder filters by style and length, selects a matching length when opening a product, and explains unavailable combinations. Newsletter validation and success messages run locally; no subscription is transmitted.
 
 ## Run
 
