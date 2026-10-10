@@ -8,3 +8,4 @@ scripts/
 *.tmp
 .env
 .env.*
+.openai/
