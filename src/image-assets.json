@@ -1,0 +1,228 @@
+{
+  "campaign": {
+    "width": 1774,
+    "height": 887,
+    "preview": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoYAAwAPyWMuVQuKqWjMAgBwCSJYwCdMoADSxZRRGm/Vs1RfAAA/lIwncnQYM9qshS5TtPi1dlpQPfaijaBplRsjqHgVZg1T/rzLBf6/dew4ioRC6l+y/vqONpknszzufm4S0/3EDmYxvXpFGMuvV+YFnrEAAAA",
+    "avif": [
+      {
+        "src": "/images/campaign-960-b5842b11b5.avif",
+        "width": 960,
+        "bytes": 21406
+      },
+      {
+        "src": "/images/campaign-1280-24230e97bf.avif",
+        "width": 1280,
+        "bytes": 33684
+      },
+      {
+        "src": "/images/campaign-1774-b6fdd50a72.avif",
+        "width": 1774,
+        "bytes": 55107
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/campaign-960-48ea095048.webp",
+        "width": 960,
+        "bytes": 26606
+      },
+      {
+        "src": "/images/campaign-1280-bc7ae6b7c3.webp",
+        "width": 1280,
+        "bytes": 41730
+      },
+      {
+        "src": "/images/campaign-1774-e293e63b18.webp",
+        "width": 1774,
+        "bytes": 67936
+      }
+    ]
+  },
+  "campaignMobile": {
+    "width": 665,
+    "height": 887,
+    "preview": "data:image/webp;base64,UklGRuQAAABXRUJQVlA4INgAAADQBQCdASoYACAAPyWAtVGuKKUisAgBwCSJQBdmasjbw79T/aSeInvs01QfkNAqWnRKNFqDLowAAP5UdtSBuQfO0ApPY/Bpx/zjQpK3AWz5+ZP9ZByy0XK7oDT93QRkhQyjquZpM3Jf7IMLMHLX/lcQ3RFL7SDbgm7Rn+xoWb2eN7VQ7GNf+QvLfRErXwYbvposkMijBFNFQQJae0Vnv5wQw3jXBtwQ5B8ITY5/xtVoEzB+syXSIUXcV0Kn7VQzIHd/P6TEhL4P+eetUEFr1uYxQaMnCYGCHAA=",
+    "avif": [
+      {
+        "src": "/images/campaign-mobile-360-e320d363d9.avif",
+        "width": 360,
+        "bytes": 12664
+      },
+      {
+        "src": "/images/campaign-mobile-665-b0d22833df.avif",
+        "width": 665,
+        "bytes": 34340
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/campaign-mobile-360-36e5d4a521.webp",
+        "width": 360,
+        "bytes": 16540
+      },
+      {
+        "src": "/images/campaign-mobile-665-2edea16549.webp",
+        "width": 665,
+        "bytes": 42296
+      }
+    ]
+  },
+  "portraits": [
+    {
+      "width": 543,
+      "height": 724,
+      "preview": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAADQBQCdASoYACAAPyV+tVGuKKUisAgBwCSJYwCdBaxlO5MGMsEZag7AMeMft+9VkJo2ELS9AbIwAP7TLdtKdc/s+XgtKVz9qSU0xtY+RPTMP0eJHHau82rnk3N3q+5l/r6nKqA2FMP1i2IflurzwkC+8BaA6/xEqv3QEreMsueY5PYwTRfpvevnypo+dgXF3wD6tG2v78cF5+UhgSJHCIasYEqsjazBJndOtxDYgJ5eL1+yNTq2BDMmQqb9XNt5VbXRUAHp4eaItUH3CR0tiHvvqZIAAA==",
+      "avif": [
+        {
+          "src": "/images/wig-0-160-f39a90fcbb.avif",
+          "width": 160,
+          "bytes": 3324
+        },
+        {
+          "src": "/images/wig-0-320-340938ecd7.avif",
+          "width": 320,
+          "bytes": 9701
+        },
+        {
+          "src": "/images/wig-0-543-241afee772.avif",
+          "width": 543,
+          "bytes": 24584
+        }
+      ],
+      "webp": [
+        {
+          "src": "/images/wig-0-160-54977bfeb0.webp",
+          "width": 160,
+          "bytes": 3990
+        },
+        {
+          "src": "/images/wig-0-320-f5a5521890.webp",
+          "width": 320,
+          "bytes": 11628
+        },
+        {
+          "src": "/images/wig-0-543-0beb4da335.webp",
+          "width": 543,
+          "bytes": 28810
+        }
+      ]
+    },
+    {
+      "width": 543,
+      "height": 724,
+      "preview": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAACQBQCdASoYACAAPyWCt1QuKKUjMBgIAcAkiUAWI+MJx3d0EGRmbSXjLyM/Dz83eTAbPQ0YAAD+3pa8OvYoOnfjIVf5kR3ASHHP+RrA4MLmZOZMQfOugc4rm4SzqfSlWVyTxypFPQO+W0WM7Y9AzKE/jcpocjxscuW2GTWgY9+5j4NMhXAgJ4TfQmK6kgiAtjABlnk3rTD+d3rsr2hrJJbyPcDNTEuBrUpPrpQvA0s+LDkxRKHexcAhoAA=",
+      "avif": [
+        {
+          "src": "/images/wig-1-160-f40b15b671.avif",
+          "width": 160,
+          "bytes": 2429
+        },
+        {
+          "src": "/images/wig-1-320-e16f2e9d6b.avif",
+          "width": 320,
+          "bytes": 7022
+        },
+        {
+          "src": "/images/wig-1-543-6e7983cdf8.avif",
+          "width": 543,
+          "bytes": 17563
+        }
+      ],
+      "webp": [
+        {
+          "src": "/images/wig-1-160-ea681e126a.webp",
+          "width": 160,
+          "bytes": 2914
+        },
+        {
+          "src": "/images/wig-1-320-deca058cf4.webp",
+          "width": 320,
+          "bytes": 8274
+        },
+        {
+          "src": "/images/wig-1-543-8baf48dd6b.webp",
+          "width": 543,
+          "bytes": 20376
+        }
+      ]
+    },
+    {
+      "width": 543,
+      "height": 724,
+      "preview": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADQBQCdASoYACAAPyV+sVIuKCSisBgMAcAkiUAVgAG6VfPQghiBTpVrl93RO1Gtn+gclKYEAr2AAP7Tm5FPlGHSfdS5/WK/KjBoRtKs9u5LNcgTPvJenNi/U+a3E97RLT52IjEKDFVdLngsuJt+mPRwOX/HwfP796I6/uH2toJ1fAlo+8PvNOmzRu/zLniEeRei6NDKnrxCzci9LyAeouC2qH7r6bciEjuswRyIengAAA==",
+      "avif": [
+        {
+          "src": "/images/wig-2-160-10038a9707.avif",
+          "width": 160,
+          "bytes": 4378
+        },
+        {
+          "src": "/images/wig-2-320-caf3baa318.avif",
+          "width": 320,
+          "bytes": 13476
+        },
+        {
+          "src": "/images/wig-2-543-e772623074.avif",
+          "width": 543,
+          "bytes": 32339
+        }
+      ],
+      "webp": [
+        {
+          "src": "/images/wig-2-160-97ee9e5507.webp",
+          "width": 160,
+          "bytes": 6006
+        },
+        {
+          "src": "/images/wig-2-320-f55f2f7964.webp",
+          "width": 320,
+          "bytes": 17958
+        },
+        {
+          "src": "/images/wig-2-543-bb8988770e.webp",
+          "width": 543,
+          "bytes": 40530
+        }
+      ]
+    },
+    {
+      "width": 543,
+      "height": 724,
+      "preview": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAQBQCdASoYACAAPyWCtVSuKKSjKA1RwCSJQAAEuLkmlIjdhhHkPme70z5945uLSQ04AP7Tm5swH2CXiii1pF7wThBomdHQmKtVaRHzzirObYNN0hVJmcbe90UIWk6OmmYWhFPtiP99w9c5sZ3yupy4eYPgadHd1PA9bDp4Dxs7shfeeLqY3PD34u3uz1tCvVDhdgURJg1GNDFUUE552AAA",
+      "avif": [
+        {
+          "src": "/images/wig-3-160-628f488df0.avif",
+          "width": 160,
+          "bytes": 2262
+        },
+        {
+          "src": "/images/wig-3-320-ef67b4213d.avif",
+          "width": 320,
+          "bytes": 5396
+        },
+        {
+          "src": "/images/wig-3-543-cd013430b4.avif",
+          "width": 543,
+          "bytes": 12418
+        }
+      ],
+      "webp": [
+        {
+          "src": "/images/wig-3-160-0735e981cf.webp",
+          "width": 160,
+          "bytes": 2608
+        },
+        {
+          "src": "/images/wig-3-320-af947ee053.webp",
+          "width": 320,
+          "bytes": 6450
+        },
+        {
+          "src": "/images/wig-3-543-327bd521d4.webp",
+          "width": 543,
+          "bytes": 14000
+        }
+      ]
+    }
+  ]
+}

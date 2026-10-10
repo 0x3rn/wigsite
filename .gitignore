@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tar.gz
+.sites-local/
+scripts/
+.github-publish/
+*.log
+*.tmp
+.env
+.env.*
