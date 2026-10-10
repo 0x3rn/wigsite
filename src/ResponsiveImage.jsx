@@ -1,10 +1,12 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import {motion} from 'framer-motion';
 
 const sourceSet = (asset, format) => asset[format].map(image => `${image.src} ${image.width}w`).join(', ');
 
 export default function ResponsiveImage({asset, mobileAsset, sizes, alt='', loading='lazy', priority='auto', className='', motionStyle, decorative=false}) {
  const [loaded, setLoaded] = useState(false);
+ const imageRef = useRef(null);
+ useEffect(()=>{if(imageRef.current?.complete && imageRef.current.naturalWidth>0)setLoaded(true)},[]);
  const Img = motionStyle ? motion.img : 'img';
  const responsiveSizes = loading === 'lazy' ? `auto, ${sizes}` : sizes;
  return <picture className={`responsive-picture ${className}`} style={{'--image-preview':`url("${asset.preview}")`, '--mobile-preview':`url("${(mobileAsset || asset).preview}")`}}>
@@ -13,6 +15,6 @@ export default function ResponsiveImage({asset, mobileAsset, sizes, alt='', load
    <source media="(max-width: 760px)" type="image/webp" srcSet={sourceSet(mobileAsset,'webp')} sizes="100vw"/>
   </>}
   <source type="image/avif" srcSet={sourceSet(asset,'avif')} sizes={responsiveSizes}/>
-  <Img src={asset.webp.at(-1).src} srcSet={sourceSet(asset,'webp')} sizes={responsiveSizes} width={asset.width} height={asset.height} alt={alt} aria-hidden={decorative || undefined} loading={loading} fetchPriority={priority} decoding="async" className={`sharp-image ${loaded?'is-loaded':''}`} style={motionStyle} onLoad={()=>setLoaded(true)}/>
+  <Img ref={imageRef} src={asset.webp.at(-1).src} srcSet={sourceSet(asset,'webp')} sizes={responsiveSizes} width={asset.width} height={asset.height} alt={alt} aria-hidden={decorative || undefined} loading={loading} fetchPriority={priority} decoding="async" className={`sharp-image ${loaded?'is-loaded':''}`} style={motionStyle} onLoad={()=>setLoaded(true)}/>
  </picture>;
 }

@@ -19,3 +19,9 @@ The product catalog, pricing and shipping rules are illustrative. Confirm produc
 AI-generated with the built-in ImageGen tool. Originals are retained in `assets/source/` and are not served to visitors. Campaign prompt: two adult Black fashion models in cream long-sleeved shirts, sleek and wavy black hair, warm beige studio, editorial lighting, empty space on the left, no text. Collection prompt: four equal portrait panels of adult Black models with body wave, straight, curly and bob styles, ivory studio backgrounds, consistent catalog framing, no text.
 
 The storefront serves responsive AVIF images with WebP fallbacks and separate catalog portraits. The mobile hero is about 34 KB, the desktop hero about 55 KB, and the four full-size catalog portraits together about 87 KB. The matching hero source is preloaded; below-the-fold images load lazily and small inline previews fill their space until the image arrives. Image filenames include content hashes. `src/image-assets.json` lists sizes and sources. No original PNG files are included in the deployment.
+
+## Indexing and hosting
+
+The production build prerenders /, /shop, /story, /journal and the private /wishlist view. Public pages have distinct metadata and HTTPS canonical URLs. Legacy hash links continue to open their matching page. The bag and wishlist remain stored in this browser; the wishlist is noindex and excluded from the sitemap.
+
+Run npm test to build and check rendered pages, crawl files and routing. Cloudflare Workers uses wrangler.jsonc with worker/index.js and the dist asset binding. Worker-first routing redirects HTTP and HTML aliases with 301 responses, and missing pages/assets return a real 404. The build output remains dist. Publish through the repository’s connected GitHub build; do not deploy an uncommitted local build.
