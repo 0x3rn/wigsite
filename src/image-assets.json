@@ -39,31 +39,41 @@
     ]
   },
   "campaignMobile": {
-    "width": 665,
-    "height": 887,
-    "preview": "data:image/webp;base64,UklGRuQAAABXRUJQVlA4INgAAADQBQCdASoYACAAPyWAtVGuKKUisAgBwCSJQBdmasjbw79T/aSeInvs01QfkNAqWnRKNFqDLowAAP5UdtSBuQfO0ApPY/Bpx/zjQpK3AWz5+ZP9ZByy0XK7oDT93QRkhQyjquZpM3Jf7IMLMHLX/lcQ3RFL7SDbgm7Rn+xoWb2eN7VQ7GNf+QvLfRErXwYbvposkMijBFNFQQJae0Vnv5wQw3jXBtwQ5B8ITY5/xtVoEzB+syXSIUXcV0Kn7VQzIHd/P6TEhL4P+eetUEFr1uYxQaMnCYGCHAA=",
+    "width": 1086,
+    "height": 1448,
+    "preview": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAQBQCdASoYACAAPyWCt1QuKKUjMBgIAcAkiUAVgAaFMpMBBUHZMK3WKdY0yPiXtjAAAP6LmLWGA6YsKU1RkVyWIJljFfJfnM2q0cWizr6nyjH6D4msbhN2HikIt/3p6pCYesegDVykdMLNaOOML0awYRgS7n1NUcf66Elu3ucJQpts4tT9a1Djhyz1SaepNvFBTgHoz1BX+r0GTAA=",
     "avif": [
       {
-        "src": "/images/campaign-mobile-360-e320d363d9.avif",
+        "src": "/images/campaign-solo-360-2a191d16fd.avif",
         "width": 360,
-        "bytes": 12664
+        "bytes": 7571
       },
       {
-        "src": "/images/campaign-mobile-665-b0d22833df.avif",
+        "src": "/images/campaign-solo-665-e11e708ce6.avif",
         "width": 665,
-        "bytes": 34340
+        "bytes": 19336
+      },
+      {
+        "src": "/images/campaign-solo-960-afeeaf8909.avif",
+        "width": 960,
+        "bytes": 33785
       }
     ],
     "webp": [
       {
-        "src": "/images/campaign-mobile-360-36e5d4a521.webp",
+        "src": "/images/campaign-solo-360-d8bbd33c35.webp",
         "width": 360,
-        "bytes": 16540
+        "bytes": 9382
       },
       {
-        "src": "/images/campaign-mobile-665-2edea16549.webp",
+        "src": "/images/campaign-solo-665-b30af40c3c.webp",
         "width": 665,
-        "bytes": 42296
+        "bytes": 23872
+      },
+      {
+        "src": "/images/campaign-solo-960-c46848d354.webp",
+        "width": 960,
+        "bytes": 41682
       }
     ]
   },
